@@ -702,7 +702,7 @@ dependencies = [
  "ciborium",
  "clap",
  "criterion-plot",
- "itertools",
+ "itertools 0.10.5",
  "lazy_static",
  "num-traits",
  "oorandom",
@@ -723,7 +723,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6b50826342786a51a89e2da3a28f1c32b06e387201bc2d19791f622c673706b1"
 dependencies = [
  "cast",
- "itertools",
+ "itertools 0.10.5",
 ]
 
 [[package]]
@@ -871,7 +871,7 @@ version = "2.18.0"
 dependencies = [
  "fnv",
  "hex",
- "itertools",
+ "itertools 0.11.0",
  "protos",
  "serde",
  "serde_derive",
@@ -1046,7 +1046,7 @@ dependencies = [
  "humansize",
  "indexmap",
  "internment",
- "itertools",
+ "itertools 0.11.0",
  "lazy_static",
  "libc",
  "log",
@@ -1211,7 +1211,7 @@ dependencies = [
  "hashing",
  "ignore",
  "internment",
- "itertools",
+ "itertools 0.11.0",
  "lazy_static",
  "log",
  "parking_lot 0.12.1",
@@ -1469,7 +1469,7 @@ dependencies = [
  "http-body",
  "hyper",
  "hyper-rustls",
- "itertools",
+ "itertools 0.11.0",
  "lazy_static",
  "log",
  "parking_lot 0.12.1",
@@ -1850,6 +1850,15 @@ name = "itertools"
 version = "0.10.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b0fd2260e829bddf4cb6ea802289de2f86d6a7a690192fbe91b3f46e0f2c8473"
+dependencies = [
+ "either",
+]
+
+[[package]]
+name = "itertools"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57"
 dependencies = [
  "either",
 ]
@@ -2425,7 +2434,7 @@ dependencies = [
  "env_logger",
  "futures",
  "hashing",
- "itertools",
+ "itertools 0.11.0",
  "lazy_static",
  "log",
  "maplit",
@@ -2644,7 +2653,7 @@ dependencies = [
  "futures",
  "grpc_util",
  "hashing",
- "itertools",
+ "itertools 0.11.0",
  "lazy_static",
  "libc",
  "log",
@@ -2734,7 +2743,7 @@ checksum = "c55e02e35260070b6f716a2423c2ff1c3bb1642ddca6f99e1f26d06268a0e2d2"
 dependencies = [
  "bytes",
  "heck",
- "itertools",
+ "itertools 0.11.0",
  "log",
  "multimap",
  "once_cell",
@@ -2755,7 +2764,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "efb6c9a1dd1def8e2124d17e83a20af56f1570d6c2d2bd9e266ccb768df3840e"
 dependencies = [
  "anyhow",
- "itertools",
+ "itertools 0.11.0",
  "proc-macro2",
  "quote",
  "syn 2.0.32",
@@ -2793,7 +2802,7 @@ dependencies = [
  "indoc",
  "libc",
  "memoffset 0.9.0",
- "parking_lot 0.11.2",
+ "parking_lot 0.12.1",
  "pyo3-build-config 0.19.0",
  "pyo3-ffi",
  "pyo3-macros",
@@ -3214,7 +3223,7 @@ dependencies = [
  "fnv",
  "indexmap",
  "internment",
- "itertools",
+ "itertools 0.11.0",
  "log",
  "petgraph",
  "smallvec",
@@ -3613,7 +3622,7 @@ dependencies = [
  "http",
  "http-body",
  "indexmap",
- "itertools",
+ "itertools 0.11.0",
  "lmdb-rkv",
  "log",
  "madvise",
@@ -3742,7 +3751,7 @@ name = "task_executor"
 version = "0.0.1"
 dependencies = [
  "futures",
- "itertools",
+ "itertools 0.11.0",
  "log",
  "parking_lot 0.12.1",
  "stdio",

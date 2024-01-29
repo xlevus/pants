@@ -257,7 +257,7 @@ ignore = { git = "https://github.com/pantsbuild/ripgrep.git", rev = "0f7e0fdd00a
 indexmap = "1.9"
 indicatif = "0.17"
 internment = "0.6"
-itertools = "0.10"
+itertools = "0.11"
 lazy_static = "1"
 libc = "0.2.137"
 lmdb-rkv = { git = "https://github.com/pantsbuild/lmdb-rs.git", rev = "6ae7a552aa2c932c3ddf652a68cdde2fed547cbc" }
